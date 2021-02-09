@@ -14,7 +14,7 @@ using namespace XrdPfcDecisionLfn;
 
 extern "C"
 {
-XrdPfc::Decision *XrdFileCacheGetDecision(XrdSysError &log)
+XrdPfc::Decision *XrdPfcGetDecision(XrdSysError &log)
 {
    return new Decision(log);
 }

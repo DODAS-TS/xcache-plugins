@@ -57,7 +57,7 @@ protected:
 
 extern "C"
 {
-   XrdPfc::Decision *XrdFileCacheGetDecision(XrdSysError&);
+   XrdPfc::Decision *XrdPfcGetDecision(XrdSysError&);
 }
 
 #endif

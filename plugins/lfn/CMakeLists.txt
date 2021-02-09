@@ -4,7 +4,7 @@ project( xrdpfc-decision-lfn )
 
 set( CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake )
 
-set( PLUGIN_VERSION 4 )
+set( PLUGIN_VERSION 5 )
 set( LIB_DECISION XrdPfcDecisionLfn-${PLUGIN_VERSION} )
 
 find_package( Xrootd REQUIRED )
